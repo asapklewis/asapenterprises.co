@@ -1,74 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Books - ASAP Enterprises</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="./assets/css/shared.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books - ASAP Enterprises</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/shared.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <meta name="google-site-verification" content="REPLACE_WITH_VERIFICATION_CODE" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <div class="header-content">
-        <a href="index.html" class="logo">ASAP Enterprises</a>
-        <nav class="main-nav" aria-label="Primary navigation">
-          <a href="index.html" class="nav-link">Home</a>
-          <a href="about.html" class="nav-link">About</a>
-          <a href="books.html" class="nav-link active" aria-current="page">Books</a>
-          <a href="contact.html" class="nav-link">Contact</a>
-        </nav>
-      </div>
-    </div>
-  </header>
 
-  <main>
-    <section class="content-section">
-      <div class="container">
-        <h1>Books</h1>
-
-        <div class="featured-section">
-          <h2>Book One (featured)</h2>
+    <header class="site-header site-header--asap">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">ASAP Enterprises</a>
+                <nav class="main-nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="books.html" class="nav-link active">Books</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="connect.html" class="nav-link">Connect</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </nav>
+            </div>
         </div>
+    </header>
 
-        <div class="roadmap-section">
-          <h3>Roadmap</h3>
-          <ul class="roadmap-list">
-            <li>Book One (featured)</li>
-            <li>Book Two: Why Every Bill Looks the Same (Coming Soon)</li>
-            <li>Book Three: Who Actually Runs the System (Coming Soon)</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-  </main>
+    <main>
+        <section class="content-section">
+            <div class="container">
+                <h1>Books</h1>
+                <p class="section-subtitle">The ALL TRUTH Series</p>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-company">
-          <p class="footer-title">ASAP Enterprises (Publisher)</p>
-          <p class="footer-parent">Parent: KWLewis Inc. (KWLI)</p>
-        </div>
+                <!-- Active Book -->
+                <div class="book-card book-card--featured">
+                    <div class="book-image">
+                        <div class="book-cover">TRUTH</div>
+                    </div>
+                    <div class="book-details">
+                        <span class="book-label">Available Now</span>
+                        <h2 class="book-title">When Florida Utility Companies Listen</h2>
+                        <p class="book-subtitle">Understanding Infrastructure, Billing Architecture, and Accountability</p>
+                        <p class="book-description">Florida Edition. A guidebook for utility customers, advocates, and regulatory observers.</p>
+                        <div class="button-group">
+                            <a href="#" class="btn btn-primary">Buy Paperback</a>
+                            <a href="#" class="btn btn-secondary">Buy eBook</a>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="footer-disclaimer">
-          <p>ASAP Enterprises publishes educational materials only and does not provide legal, financial, or consulting services.</p>
-        </div>
+                <!-- Coming Soon Grid -->
+                <h2 class="section-title">Coming Soon</h2>
+                <div class="book-grid">
+                    <div class="book-card book-card--coming-soon">
+                        <div class="book-image">
+                            <div class="book-cover">TRUTH</div>
+                            <span class="coming-soon-badge">Coming Soon</span>
+                        </div>
+                        <h3 class="book-title">When Health Systems Function</h3>
+                        <p class="book-subtitle">How medical billing, insurance architecture, and accountability intersect</p>
+                    </div>
+                    <div class="book-card book-card--coming-soon">
+                        <div class="book-image">
+                            <div class="book-cover">TRUTH</div>
+                            <span class="coming-soon-badge">Coming Soon</span>
+                        </div>
+                        <h3 class="book-title">When Financial Infrastructure Evolves</h3>
+                        <p class="book-subtitle">Banking, payment systems, and modern accountability</p>
+                    </div>
+                    <div class="book-card book-card--coming-soon">
+                        <div class="book-image">
+                            <div class="book-cover">TRUTH</div>
+                            <span class="coming-soon-badge">Coming Soon</span>
+                        </div>
+                        <h3 class="book-title">When Technology Governance Works</h3>
+                        <p class="book-subtitle">Data systems, platform regulation, and accountability frameworks</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-        <div class="footer-legal">
-          <p>&copy; 2026 ASAP Enterprises. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-company">
+                    <p class="footer-title">ASAP Enterprises (Publisher)</p>
+                    <p class="footer-parent">Parent: KWLewis Inc. (KWLI)</p>
+                </div>
+                <div class="footer-disclaimer">
+                    <p>ASAP Enterprises publishes educational materials only and does not provide legal, financial, or consulting services.</p>
+                </div>
+                <div class="footer-legal">
+                    <p>&copy; 2026 ASAP Enterprises. All rights reserved.</p>
+                </div>
+                <div class="footer-contact">
+                    <p>Phone: 1-800-453-6539</p>
+                    <p>Address: 9815 Sam Furr Rd J PMB 25, Huntersville, NC 28078</p>
+                </div>
+            </div>
         </div>
+    </footer>
 
-        <div class="footer-contact">
-          <p>Phone: 1-800-453-6539</p>
-          <p>Address: 9815 Sam Furr Rd J PMB 25, Huntersville, NC 28078</p>
-        </div>
-      </div>
-    </div>
-  </footer>
 </body>
 </html>
