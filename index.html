@@ -1,80 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ASAP Enterprises - Infrastructure Education</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/shared.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASAP Enterprises - The ALL TRUTH Series</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/shared.css">
+    <!-- Google Analytics placeholder -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <!-- Search Console Verification -->
+    <meta name="google-site-verification" content="REPLACE_WITH_VERIFICATION_CODE" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <div class="header-content">
-        <a href="index.html" class="logo">ASAP Enterprises</a>
-        <nav class="main-nav">
-          <a href="index.html" class="nav-link active">Home</a>
-          <a href="about.html" class="nav-link">About</a>
-          <a href="books.html" class="nav-link">Books</a>
-          <a href="contact.html" class="nav-link">Contact</a>
-        </nav>
-      </div>
-    </div>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="container">
-        <p class="hero-label">THE TRUTH SERIES</p>
-        <h1 class="hero-title">Infrastructure affects everyone.<br>Structure explains everything.</h1>
-        <p class="hero-subtitle">Educational publishing dedicated to understanding how modern systems are built.</p>
-      </div>
-    </section>
-
-    <section class="featured-book">
-      <div class="container">
-        <div class="book-card">
-          <div class="book-cover">
-            <img src="./assets/img/book-cover-placeholder.png" alt="When Florida Utility Companies Listen" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-            <div class="cover-placeholder" style="display:none;">
-              <span>Book Cover</span>
+    <header class="site-header site-header--asap">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">ASAP Enterprises</a>
+                <nav class="main-nav">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="books.html" class="nav-link">Books</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="connect.html" class="nav-link">Connect</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </nav>
             </div>
-          </div>
-          <div class="book-info">
-            <h2 class="book-title">When Florida Utility Companies Listen</h2>
-            <p class="book-subtitle">Understanding Infrastructure, Billing Architecture, and Accountability</p>
-            <div class="button-group">
-              <button class="btn btn-primary" disabled>Buy Paperback</button>
-              <button class="btn btn-secondary" disabled>Buy eBook</button>
-              <button class="btn btn-secondary" disabled>Amazon</button>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-  </main>
+    </header>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-company">
-          <p class="footer-title">ASAP Enterprises (Publisher)</p>
-          <p class="footer-parent">Parent: KWLewis Inc. (KWLI)</p>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <p class="hero-label">THE ALL TRUTH SERIES</p>
+                <h1 class="hero-title">Infrastructure affects everyone.<br>Structure explains everything.</h1>
+                <p class="hero-subtitle">Educational publishing dedicated to understanding how modern systems are built.</p>
+                <a href="books.html" class="btn btn-primary">Start Reading</a>
+            </div>
+        </section>
+
+        <!-- Featured Book Section -->
+        <section class="featured-book">
+            <div class="container">
+                <div class="book-card book-card--featured">
+                    <div class="book-image">
+                        <div class="book-cover">TRUTH</div>
+                    </div>
+                    <div class="book-details">
+                        <span class="book-label">Featured Book</span>
+                        <h2 class="book-title">When Florida Utility Companies Listen</h2>
+                        <p class="book-subtitle">Understanding Infrastructure, Billing Architecture, and Accountability</p>
+                        <p class="book-description">Florida Edition. A guidebook for utility customers, advocates, and regulatory observers.</p>
+                        <div class="button-group">
+                            <a href="#" class="btn btn-primary">Buy Paperback</a>
+                            <a href="#" class="btn btn-secondary">Buy eBook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coming Soon Grid -->
+        <section class="coming-soon-section">
+            <div class="container">
+                <h2 class="section-title">More Titles in The ALL TRUTH Series</h2>
+                <div class="book-grid">
+                    <div class="book-card book-card--coming-soon">
+                        <div class="book-image">
+                            <div class="book-cover">TRUTH</div>
+                            <span class="coming-soon-badge">Coming Soon</span>
+                        </div>
+                        <h3 class="book-title">When Health Systems Function</h3>
+                        <p class="book-subtitle">How medical billing, insurance architecture, and accountability intersect</p>
+                    </div>
+                    <div class="book-card book-card--coming-soon">
+                        <div class="book-image">
+                            <div class="book-cover">TRUTH</div>
+                            <span class="coming-soon-badge">Coming Soon</span>
+                        </div>
+                        <h3 class="book-title">When Financial Infrastructure Evolves</h3>
+                        <p class="book-subtitle">Banking, payment systems, and modern accountability</p>
+                    </div>
+                    <div class="book-card book-card--coming-soon">
+                        <div class="book-image">
+                            <div class="book-cover">TRUTH</div>
+                            <span class="coming-soon-badge">Coming Soon</span>
+                        </div>
+                        <h3 class="book-title">When Technology Governance Works</h3>
+                        <p class="book-subtitle">Data systems, platform regulation, and accountability frameworks</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Email Capture Section -->
+        <section class="email-capture-section">
+            <div class="container">
+                <div class="email-capture-box">
+                    <h2 class="section-title">Get New Releases First</h2>
+                    <p class="section-subtitle">Join our mailing list to receive updates when new titles are available.</p>
+                    <form action="https://formspree.io/f/REPLACE_WITH_ID" method="POST" class="email-form">
+                        <input type="hidden" name="source" value="asapenterprises.co/index">
+                        <input type="hidden" name="_subject" value="New Email Capture from ASAP Index">
+                        <input type="hidden" name="_autoresponse" value="Thank you for joining The ALL TRUTH Series mailing list. You'll receive updates when new titles are released and special announcements about upcoming publications.">
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your email address" required class="form-input">
+                            <button type="submit" class="btn btn-primary">Join the List</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Institutional Copies Section -->
+        <section class="institutional-section">
+            <div class="container">
+                <div class="institutional-box">
+                    <h2 class="section-title">Institutional Copies Available</h2>
+                    <p class="section-subtitle">Libraries, universities, advocacy organizations, and regulatory agencies may request review copies.</p>
+                    <a href="contact.html" class="btn btn-secondary">Request Institutional Copy</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-company">
+                    <p class="footer-title">ASAP Enterprises (Publisher)</p>
+                    <p class="footer-parent">Parent: KWLewis Inc. (KWLI)</p>
+                </div>
+                <div class="footer-disclaimer">
+                    <p>ASAP Enterprises publishes educational materials only and does not provide legal, financial, or consulting services.</p>
+                </div>
+                <div class="footer-legal">
+                    <p>&copy; 2026 ASAP Enterprises. All rights reserved.</p>
+                </div>
+                <div class="footer-contact">
+                    <p>Phone: 1-800-453-6539</p>
+                    <p>Address: 9815 Sam Furr Rd J PMB 25, Huntersville, NC 28078</p>
+                </div>
+            </div>
         </div>
-        <div class="footer-disclaimer">
-          <p>ASAP Enterprises publishes educational materials only and does not provide legal, financial, or consulting services.</p>
-        </div>
-        <div class="footer-legal">
-          <p>&copy; 2026 ASAP Enterprises. All rights reserved.</p>
-        </div>
-        <div class="footer-contact">
-          <p>Phone: 1-800-453-6539</p>
-          <p>Address: 9815 Sam Furr Rd J PMB 25, Huntersville, NC 28078</p>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
+
 </body>
 </html>
