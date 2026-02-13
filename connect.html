@@ -76,6 +76,18 @@
             </div>
         </div>
     </footer>
+<script>
+document.addEventListener('submit', function(e) {
+  if (e.target && e.target.closest && e.target.closest('.ml-embedded')) {
+    if (typeof gtag === 'function') {
+      gtag('event','mailerlite_submit',{
+        event_category:'lead',
+        event_label:'all_truth_signup'
+      });
+    }
+  }
+}, true);
+</script>
 
 </body>
 </html>
