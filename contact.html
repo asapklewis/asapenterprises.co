@@ -61,7 +61,40 @@
     <section class="content-section">
       <div class="container">
         <h1>Contact ASAP Enterprises</h1>
-        <p>Publisher inquiries only.</p>
+        <p style="margin-bottom:2rem; color:#555;">Publisher inquiries only. Use the form below to reach us directly.</p>
+
+        <form action="https://formspree.io/f/xpwzgkdo" method="POST" style="max-width:600px;">
+
+          <div style="margin-bottom:1.25rem;">
+            <label for="name" style="display:block; font-weight:600; margin-bottom:.4rem; color:#1a2b4b;">Full Name <span style="color:#c0392b;">*</span></label>
+            <input type="text" id="name" name="name" required placeholder="Your full name"
+              style="width:100%; padding:.75rem 1rem; border:1px solid #ccc; border-radius:6px; font-size:1rem; font-family:inherit; box-sizing:border-box;" />
+          </div>
+
+          <div style="margin-bottom:1.25rem;">
+            <label for="email" style="display:block; font-weight:600; margin-bottom:.4rem; color:#1a2b4b;">Email Address <span style="color:#c0392b;">*</span></label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com"
+              style="width:100%; padding:.75rem 1rem; border:1px solid #ccc; border-radius:6px; font-size:1rem; font-family:inherit; box-sizing:border-box;" />
+          </div>
+
+          <div style="margin-bottom:1.25rem;">
+            <label for="subject" style="display:block; font-weight:600; margin-bottom:.4rem; color:#1a2b4b;">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Inquiry subject"
+              style="width:100%; padding:.75rem 1rem; border:1px solid #ccc; border-radius:6px; font-size:1rem; font-family:inherit; box-sizing:border-box;" />
+          </div>
+
+          <div style="margin-bottom:1.5rem;">
+            <label for="message" style="display:block; font-weight:600; margin-bottom:.4rem; color:#1a2b4b;">Message <span style="color:#c0392b;">*</span></label>
+            <textarea id="message" name="message" required rows="6" placeholder="Please describe your inquiry..."
+              style="width:100%; padding:.75rem 1rem; border:1px solid #ccc; border-radius:6px; font-size:1rem; font-family:inherit; resize:vertical; box-sizing:border-box;"></textarea>
+          </div>
+
+          <button type="submit"
+            style="background-color:#1a2b4b; color:#fff; padding:.85rem 2rem; border:none; border-radius:6px; font-size:1rem; font-weight:600; font-family:inherit; cursor:pointer; letter-spacing:.03em;">
+            Send Message
+          </button>
+
+        </form>
       </div>
     </section>
   </main>
