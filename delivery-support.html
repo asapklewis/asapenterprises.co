@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delivery Support - ASAP Enterprises</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/shared.css" />
+    <meta name="description" content="Request digital delivery access for your ASAP Enterprises eBook purchase." />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-07N3WEGFW9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-07N3WEGFW9');
+    </script>
+</head>
+<body>
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <img src="/assets/ASAP%20LOGO.png" alt="ASAP Enterprises" style="height:60px; width:auto; display:block;" />
+            </a>
+            <nav class="main-nav" aria-label="Primary navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="books.html" class="nav-link">Books</a>
+                <a href="connect.html" class="nav-link">Connect</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="content-section" style="padding: 80px 20px;">
+        <div class="container" style="max-width: 700px; margin: 0 auto;">
+            <h1 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 20px;">Request Delivery Access</h1>
+            <p style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 30px; color: #555;">If your digital purchase did not include an automatic download, please submit your purchase details below. Our team will verify your order and provide delivery access within one business day.</p>
+
+            <form action="https://formspree.io/f/xpwzgkdo" method="POST" style="max-width: 600px;">
+                <input type="hidden" name="_subject" value="ASAP Delivery Support Request" />
+                <input type="hidden" name="_next" value="https://asapenterprises.co/thank-you.html" />
+
+                <div style="margin-bottom: 1.25rem;">
+                    <label for="name" style="display:block; font-weight:600; margin-bottom:.4rem; color:#1a2b4b;">Full Name <span style="color:#c0392b;">*</span></label>
+                    <input type="text" id="name" name="name" required placeholder="Your full name" style="width:100%; padding:.75rem 1rem; border:1px solid #ccc; border-radius:6px; font-size:1rem; font-family:inherit; box-sizing:border-box;" />
+                </div>
+
+                <div style="margin-bottom: 1.25rem;">
+                    <label for="email" style="display:block; font-weight:600; margin-bottom:.4rem; color:#1a2b4b;">Email Address <span style="color:#c0392b;">*</span></label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com" style="width:100%; padding:.75rem 1rem; border:1px solid #ccc; border-radius:6px; font-size:1rem; font-family:inherit; box-sizing:border-box;" />
+                </div>
+
+                <div style="margin-bottom: 1.25rem;">
+                    <label for="book" style="display:block; font-weight:600; margin-bottom:.4rem; color:#1a2b4b;">Book Purchased <span style="color:#c0392b;">*</span></label>
+                    <select id="book" name="book_purchased" required style="width:100%; padding:.75rem 1rem; border:1px solid #ccc; border-radius:6px; font-size:1rem; font-family:inherit; box-sizing:border-box; background:#fff;">
+                        <option value="">Select your book</option>
+                        <option value="Administrative Process as Power">Administrative Process as Power</option>
+                        <option value="When Florida Utility Companies Listen">When Florida Utility Companies Listen</option>
+                    </select>
+                </div>
+
+                <div style="margin-bottom: 1.25rem;">
+                    <label for="paypal_email" style="display:block; font-weight:600; margin-bottom:.4rem; color:#1a2b4b;">PayPal Email Used</label>
+                    <input type="email" id="paypal_email" name="paypal_email" placeholder="PayPal email if different" style="width:100%; padding:.75rem 1rem; border:1px solid #ccc; border-radius:6px; font-size:1rem; font-family:inherit; box-sizing:border-box;" />
+                </div>
+
+                <div style="margin-bottom: 1.25rem;">
+                    <label for="transaction_id" style="display:block; font-weight:600; margin-bottom:.4rem; color:#1a2b4b;">Transaction ID</label>
+                    <input type="text" id="transaction_id" name="transaction_id" placeholder="PayPal transaction ID or receipt number" style="width:100%; padding:.75rem 1rem; border:1px solid #ccc; border-radius:6px; font-size:1rem; font-family:inherit; box-sizing:border-box;" />
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label for="notes" style="display:block; font-weight:600; margin-bottom:.4rem; color:#1a2b4b;">Notes</label>
+                    <textarea id="notes" name="notes" rows="4" placeholder="Any additional details..." style="width:100%; padding:.75rem 1rem; border:1px solid #ccc; border-radius:6px; font-size:1rem; font-family:inherit; resize:vertical; box-sizing:border-box;"></textarea>
+                </div>
+
+                <button type="submit" style="background-color:#1a2b4b; color:#fff; padding:.85rem 2rem; border:none; border-radius:6px; font-size:1rem; font-weight:600; font-family:inherit; cursor:pointer; letter-spacing:.03em;">Request Delivery Access</button>
+            </form>
+
+            <p style="margin-top: 2rem; font-size: 0.9rem; color: #888;">Need general help? <a href="contact.html" style="color:#1a2b4b;">Contact us</a> | <a href="policies.html" style="color:#1a2b4b;">View our policies</a></p>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p><strong>ASAP Enterprises</strong> (Publisher)</p>
+        <p>Parent: KWLewis Inc. (KWLI)</p>
+        <p style="font-size: 0.85rem;">ASAP Enterprises publishes educational materials only and does not provide legal, financial, or consulting services.</p>
+        <p>&copy; 2026 ASAP Enterprises. All rights reserved.</p>
+        <p>Phone: 1-800-453-6539</p>
+        <p>Address: 9815 Sam Furr Rd J PMB 25, Huntersville, NC 28078</p>
+    </div>
+</footer>
+</body>
+</html>
